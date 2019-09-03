@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="welcome" datatype="html">
+        <source>Welcome!</source>
+        <target>Bienvenido!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <note priority="1" from="description">Friendly welcoming message</note>
+        <note priority="1" from="meaning">main header</note>
+      </trans-unit>
+      <trans-unit id="subHeader" datatype="html">
+        <source>Here are some links to help you start:</source>
+        <target>Aquí hay algunos enlaces para ayudarlo a comenzar:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <note priority="1" from="description">Here are some links to help you start:</note>
+        <note priority="1" from="meaning">sub header</note>
+      </trans-unit>
+      <trans-unit id="link1" datatype="html">
+        <source>Tour of Heroes</source>
+        <target>Tour de héroes</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <note priority="1" from="description"> Tour of Heroes</note>
+        <note priority="1" from="meaning">link1 </note>
+      </trans-unit>
+      <trans-unit id="link2" datatype="html">
+        <source>CLI Documentation</source>
+        <target>Documentación de CLI</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <note priority="1" from="description"> CLI Documentation</note>
+        <note priority="1" from="meaning">link2 </note>
+      </trans-unit>
+      <trans-unit id="link3" datatype="html">
+        <source>Angular blog</source>
+        <target>Blog angular</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <note priority="1" from="description"> Angular blog</note>
+        <note priority="1" from="meaning">link3 </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
