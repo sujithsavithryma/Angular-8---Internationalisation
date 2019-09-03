@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --configuration=es --aot -o",
+    "start:en": "ng serve --configuration=en --aot -o --port=4201",
+    "start:es": "ng serve --configuration=es --aot -o --port=4200",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
